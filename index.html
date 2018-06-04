@@ -2,29 +2,8 @@
 <html>
 	<head>
 		<title>AGE DISCOVERER</title>
-
-		<style>
-			body {
-				margin: 200px;
-				text-align: center;
-			}
-
-			input   {
-				text-align:center;
-			}
-		</style>
-
-		<script>
-			function ageCalc() {
-				yearOfBirth = document.getElementById('yearOfBirth').value
-				currentAge = (new Date()).getFullYear() - yearOfBirth
-				document.getElementById('yearDisplay').innerHTML = "YOU ARE " + currentAge + " YEARS OLD!";
-			}
-			function clearAll() {
-				yearOfBirth = document.getElementById('yearOfBirth').value = '';
-				document.getElementById('yearDisplay'). innerHTML = '';
-			}
-		</script>
+        <script src="index_script.js"></script>
+        <link rel="stylesheet" type="text/css" href="index_style.css">
 	</head>
 
 	<body>
